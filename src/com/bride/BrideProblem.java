@@ -142,7 +142,7 @@ public class BrideProblem
         //gComparator = new GroomIdComparator();
         //gComparator = new GroomIdealPointComparator(groom);
         //gComparator = new GroomLinearComparator(new double[] {0.2, 0.2, 0.2, 0.4});
-        //gComparator = new GroomMainCreteryComparator(0, new int[] {0, 30});
+        //gComparator = new GroomMainCriterionComparator(0, new int[] {0, 30});
         //gComparator = new GroomMaxMinComparator();
         gComparator = new GroomMultiplComparator(new double[] {0.2, 0.2, 0.2, 0.4});
 
